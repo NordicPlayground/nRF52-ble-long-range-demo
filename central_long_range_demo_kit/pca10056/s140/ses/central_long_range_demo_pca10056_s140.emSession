@@ -1,0 +1,86 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="218" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../../components/libraries/bsp/bsp.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="791" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../main.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="central_long_range_demo_pca10056_s140" radix="16" sizeText="sizeof " addressText="0x2003fd18"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="central_long_range_demo_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="central_long_range_demo_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="central_long_range_demo_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140;Application"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140;Board Definition"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140;Board Support"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140;nRF_BLE"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140;nRF_Libraries"/>
+  <ProjectSessionItem path="central_long_range_demo_pca10056_s140;central_long_range_demo_pca10056_s140;nRF_Log"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="central_long_range_demo_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="central_long_range_demo_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="central_long_range_demo_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="central_long_range_demo_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint numelements="0" expression="m_app_initiated_disconnect" evalMode="0" name="m_app_initiated_disconnect" radix="-1" linenumber="0" filename="../ses" list=""/>
+   <Watchpoint numelements="0" expression="m_scan_buffer" evalMode="0" name="m_scan_buffer" radix="-1" linenumber="0" filename="../ses" list=""/>
+   <Watchpoint numelements="0" expression="m_adv_scan_phy_selected" evalMode="0" name="m_adv_scan_phy_selected" radix="-1" linenumber="0" filename="../ses" list=""/>
+   <Watchpoint numelements="0" expression="m_waiting_for_disconnect_evt" evalMode="0" name="m_waiting_for_disconnect_evt" radix="-1" linenumber="0" filename="../ses" list=""/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="933" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" debugPath="../../../main.c" selected="0" top="914" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1647" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/softdevice/s140/headers/ble_gap.h" debugPath="../../../../../../../components/softdevice/s140/headers/ble_gap.h" selected="0" top="1620" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7432" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" debugPath="../config/sdk_config.h" selected="0" top="7404" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="216" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/softdevice/s140/headers/ble.h" debugPath="../../../../../../../components/softdevice/s140/headers/ble.h" selected="0" top="199" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="98" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/util/app_error_weak.c" debugPath="../../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="80" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="212" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/bsp/bsp.c" debugPath="../../../../../../../components/libraries/bsp/bsp.c" selected="0" top="193" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="917" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/ble/ble_db_discovery/ble_db_discovery.c" debugPath="../../../../../../../components/ble/ble_db_discovery/ble_db_discovery.c" selected="0" top="873" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="69" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/softdevice/s140/headers/nrf_error.h" debugPath="../../../../../../../components/softdevice/s140/headers/nrf_error.h" selected="0" top="47" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1227" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/experimental_log/src/nrf_log_frontend.c" debugPath="../../../../../../../components/libraries/experimental_log/src/nrf_log_frontend.c" selected="0" top="1198" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="65" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/boards/boards.c" debugPath="../../../../../../../components/boards/boards.c" selected="0" top="62" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="184" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/experimental_log/src/nrf_log_internal.h" debugPath="../../../../../../../components/libraries/experimental_log/src/nrf_log_internal.h" selected="0" top="142" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="202" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/softdevice/s140/headers/ble_types.h" debugPath="../../../../../../../components/softdevice/s140/headers/ble_types.h" selected="0" top="181" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="662" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/ble/common/ble_advdata.c" debugPath="../../../../../../../components/ble/common/ble_advdata.c" selected="0" top="652" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="828" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/timer/app_timer.c" debugPath="../../../../../../../components/libraries/timer/app_timer.c" selected="0" top="823" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="112" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/timer/app_timer.h" debugPath="../../../../../../../components/libraries/timer/app_timer.h" selected="0" top="98" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="295" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../../components/softdevice/s140/headers/nrf_nvic.h" debugPath="../../../../../../../components/softdevice/s140/headers/nrf_nvic.h" selected="0" top="268" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="central_long_range_demo_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
