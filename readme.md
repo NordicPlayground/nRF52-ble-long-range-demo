@@ -22,21 +22,12 @@ This application is a demo kit that can be used to easily test the Bluetooth 5 l
 3. Ready to test! Prepare yourself for a long walk!
 
 ## Compile, debug, log
-
 * Compile and debug: The demo is made with SDK 15.0.0 and the nrf52840-long-range-demo-kit folder should be placed in the following folder: ..\nRF5_SDK_15.0.0_a53641a\examples\ble_central_and_peripheral\
 * Log: To see the logged information, use either a Serial Port Viewer (UART log) or RTT viewer. 
 
 **Note 1:** The central filters devices based on device name, both when initiating a connection and when reporting RSSI of the advertiser. The default device name is "Long range demo".
 
 **Note 2:** For non-connectable advertising on coded phy, the central does not filter on device name because the device name is not included in the advertising packet. 
-
-**Note 3:** The arm-gcc Makefile assumes you have an environmental variable NRF5\_SDK\_ROOT pointing the path to the SDK root. For Linux users, this can be done by adding this line to your `.bashrc` file:
-
-```
-export NRF5_SDK_ROOT="path/to/sdk"
-```
-
-If you do not want to use an environmental variable, just change SDK\_ROOT in the Makefile to the correct path.
 
 ## Buttons and LED configurations
 ### Peripheral 
@@ -48,27 +39,27 @@ If you do not want to use an environmental variable, just change SDK\_ROOT in th
 
 | LEDs        |            |                                                                               
 | ------------- |:-------------:|                                                                      
-| LED 1      | ï¿½onï¿½: coded phy  |     
-|            | ï¿½slow blinkingï¿½: 1Mbps     |                
-| LED 2      | ï¿½onï¿½: 0 dBm |    
-|            | ï¿½slow blinkingï¿½: 8 dBm  |                 
-| LED 3 |   ï¿½fast blinkingï¿½: non-connectable advertising  |   
-| ï¿½                |                   |                                         
-| LED 4 |  ï¿½fast blinkingï¿½: connectable advertising  |  
-|            |  ï¿½onï¿½: connected state   |     
+| LED 1      | «on»: coded phy  |     
+|            | «slow blinking»: 1Mbps     |                
+| LED 2      | «on»: 0 dBm |    
+|            | «slow blinking»: 8 dBm  |                 
+| LED 3 |   «fast blinking»: non-connectable advertising  |   
+| ·                |                   |                                         
+| LED 4 |  «fast blinking»: connectable advertising  |  
+|            |  «on»: connected state   |     
 
 </td><td>
 
 | Buttons        |            |       
 | ------------- |:-------------:|                                  
 | Button 1      |  Switch between coded phy and 1Mbps |  
-|     ï¿½          |                          |                  
+|     ·          |                          |                  
 | Button 2      | Switch between 0 dbm and 8 dBm |    
-| ï¿½                |                   |                     
+| ·                |                   |                     
 | Button 3 |  Switch between non-connectable and connectable advertising  |
-| ï¿½                |                   |          
+| ·                |                   |          
 | Button 4  |  Not in use |          
-| ï¿½        |            |                         
+| ·        |            |                         
 
 </td></tr> </table>
                
@@ -81,14 +72,14 @@ If you do not want to use an environmental variable, just change SDK\_ROOT in th
 
 | LEDs        |            |                                                                                          
 | ------------- |:-------------:|                                                                                     
-| LED 1      | ï¿½onï¿½: coded phy|    
-|     | ï¿½slow blinkingï¿½: 1Mbps|                                  
-| LED 2      | ï¿½onï¿½: 0 dBm |     
-|     |  ï¿½slow blinkingï¿½: 8 dBm |                              
-| LED 3 |   ï¿½onï¿½: scanning, trying to connect | 
-| | ï¿½slow blinkingï¿½: scanning|                 
-| LED 4 |  ï¿½onï¿½: connected state |     
-| | ï¿½togglingï¿½: changing state upon received adv report |     
+| LED 1      | «on»: coded phy|    
+|     | «slow blinking»: 1Mbps|                                  
+| LED 2      | «on»: 0 dBm |     
+|     |  «slow blinking»: 8 dBm |                              
+| LED 3 |   «on»: scanning, trying to connect | 
+| | «slow blinking»: scanning|                 
+| LED 4 |  «on»: connected state |     
+| | «toggling»: changing state upon received adv report |     
 
 
 </td><td>
@@ -96,13 +87,13 @@ If you do not want to use an environmental variable, just change SDK\_ROOT in th
 | Buttons        |            |       
 | ------------- |:-------------:|                                  
 | Button 1      |  Switch between coded phy and 1Mbps |     
-| ï¿½        |            |                
+| ·        |            |                
 | Button 2      | Switch between 0 dbm and 8 dBm |       
-| ï¿½        |            |                   
-| Button 3 | Switch between ï¿½scanningï¿½ and ï¿½scanning, trying to	connectï¿½ |
-| ï¿½        |            | 
+| ·        |            |                   
+| Button 3 | Switch between «scanning» and «scanning, trying to	connect» |
+| ·        |            | 
 | Button 4  |  Not in use |
-| ï¿½        |            |                                      
+| ·        |            |                                      
 
 </td></tr> </table>
 
@@ -127,4 +118,7 @@ However, in the hope that it still may be useful also for others than the ones w
 
 The application is built to be used with the official nRF5 SDK, that can be downloaded from https://www.nordicsemi.no 
 
-Please post any questions about this project on https://devzone.nordicsemi.com.
+Please post any questions about this project on https://devzone.nordicsemi.com.                   
+                                  
+                                  
+                                  
